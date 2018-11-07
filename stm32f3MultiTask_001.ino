@@ -121,6 +121,7 @@ void stackMonitor( void )
       stackPrint( "monitor stack : ", tsk0_stk, sizeof(tsk0_stk) );
 
       Serial1.println( dateTime() );
+      Serial.println( dateTime() );
     }
     rot_rdq();
   }
